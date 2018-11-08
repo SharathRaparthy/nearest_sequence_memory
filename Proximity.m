@@ -1,3 +1,8 @@
+% Implementation of a function called proximity. The proximity function counts how many
+% steps are similar between the current short-term memory (STM) episode and an arbitrary step
+% in a given LTM matrix.
+
+
 function [p step] = Proximity(LTM, ltm_eidx, ltm_sidx, STM, o)
     p = 0;
     step = [0 0 0];
