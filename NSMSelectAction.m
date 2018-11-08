@@ -1,3 +1,7 @@
+% Implementation of the NSMSelectAction function. The selectAction calculates the
+% average discounted reward for each action based on the K nearest sequences and return the
+% action with the highest average discounted reward.
+
 function action = NSMSelectAction(LTM, STM, o)
 
     EPSILON = 0.1;
