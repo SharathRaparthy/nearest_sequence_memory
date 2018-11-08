@@ -8,14 +8,17 @@ NSM is an instance-based algorithm for solving partially observable Markov decis
 </p>
 
 ### Prerequisites
----
-Matlab 2015b (or later version)
-Ubuntu 14.04 (or later version)/Windows
----
+```
+* Matlab 2015b (or later version)
+* Ubuntu 14.04 (or later version)/Windows
+```
+
 
 ### Getting Started
 After successful installation of matlab, clone this repository by using the following command
 
----
+```
+
 git clone https://github.com/SharathRaparthy/nearest_sequence_memory.git
----
+```
+
