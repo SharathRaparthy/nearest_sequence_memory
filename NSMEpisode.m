@@ -1,3 +1,4 @@
+% The NSMEpisode function takes the LTM matrix as an argument.
 function [steps_numof episode] = NSMEpisode(LTM)
 
     STEPS_NUMOF_MAX = 20;
