@@ -1,3 +1,13 @@
+% Implementation of a function called rndEpisode. The rndEpisode generates a sequence
+% of steps (observation, action and discounted reward values) that lead from a random starting
+% state to the goal state. Actions are chosen at random.
+% --------------------------------------------------------------------------------------------
+% The rndEpisode function returns two values. The first value is the number of steps that
+%  was needed to reach the goal state from the start state. The second value is a matrix
+%  containing the last 20 rows of the episode matrix, describing the 20 steps leading
+%  up to the goal state. The information about the preceding steps can be ignored.
+
+
 function [steps_numof episode] = rndEpisode()
 
     STEPS_NUMOF_MAX = 20;
