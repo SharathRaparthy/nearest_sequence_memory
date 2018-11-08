@@ -1,3 +1,5 @@
+% Implemention of a function called transition that takes as parameters, a state and an action. 
+% The function returns the state that is the result of taking the given action in the given state. 
 function next_state = transition(state, action)
     % Returns the next state given an initial state and action
     next_state = state;
