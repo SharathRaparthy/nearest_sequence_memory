@@ -1,3 +1,4 @@
+% Implement a function called observation that takes a state as a parameter and returns the observation value
 function o = observation(state)
 % Returns the observation related to the given state
     switch state
