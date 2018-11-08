@@ -1,3 +1,7 @@
+% Implementation of the KNearest function. The KNearest function calls the proximity
+% function for all the steps recorded in LTM and keeps a list of the 10 (K) steps with the highest
+% proximities, i.e., the 10 nearest sequences.
+
 function nearest_steps = KNearest(LTM, STM, o)
 
     K = 10;
